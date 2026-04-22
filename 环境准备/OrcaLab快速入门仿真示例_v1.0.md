@@ -24,7 +24,7 @@ pip install -r requirements.txt
 订阅资产包名称：OrcaPlaygroundAssets
 ```
 - 订阅资产：找到OrcaPlaygroundAssets资产并订阅
-![](img/playground/play_assets.png)
+![](../img/playground/play_assets.png)
 
 #### 步骤 3：激活 OrcaLab 的 conda 环境
 
@@ -44,22 +44,20 @@ orcalab
 
 #### 步骤 5：在 OrcaLab 中启动示例
 
-1. 添加资产hummer_h2_usda_1到布局中
-   ![](img/playground/add_hummer_h2_usda_1.png)
-2. OrcaLab 界面右上角点运行按钮，打开选择仿真程序窗口  
-3. **仿真程序**列表中选择对应的示例程序：
+1. OrcaLab 界面右上角点运行按钮，打开选择仿真程序窗口  
+2. **仿真程序**列表中选择对应的示例程序：
 
    - `run_ackerman` - 小汽车仿真
 
-   ![](img/playground/run_ackerman.png)
+   ![](../img/playground/run_ackerman.png)
 
-4. 启动运行仿真程序后，W、S、A、D 键可控制前后左右移动方向。
+3. 启动运行仿真程序后，W、S、A、D 键可控制前后左右移动方向。
 
 
 **更多配置信息参:OrcaPlayground/examples/wheeled_chassis/README.md**
 
 ---
- ## 二、 OrcaPlayground项目代码仓介绍及样例运行参数说明
+ ## 二、 OrcaPlayground项目代码仓介绍及其他几个样例说明
 
  ## 📦 项目结构
 
@@ -86,16 +84,19 @@ OrcaPlayground/
 - **足式机器人 RL 训练** - `examples/legged_gym/README.md`
 - **轮式底盘** - `examples/wheeled_chassis/README.md`
 - **XBot 机器人** - `examples/xbot/README.md`
+- **ZQ SA01 人形** - `examples/zq_sa01/README.md`
+- **G1 人形** - `examples/g1/README.md`
 - **场景复制** - `examples/replicator/README.md`
+- **流体仿真** - `examples/fluid/README.md`
 
 > **⚠️ 重要提示：资产准备**
 > 
 > 每个示例都需要相应的 3D 资产才能正常运行。**请务必查看各示例目录下的 README.md 文件**，了解：
-> - 📦 所需资产的下载地址
-> - 🔧 是否需要手动在 OrcaStudio 中拖动资产到场景布局
+> - 📦 所需订阅的资产
+> - 🔧 是否需要手动拖动资产到场景布局
 > - 📝 对应的模型名称
 > 
-> 资产下载地址：https://simassets.orca3d.cn/
+> 资产订阅地址：https://simassets.orca3d.cn/
 
 ## 📋 依赖说明
 
@@ -108,7 +109,7 @@ OrcaPlayground/
 
 详细依赖说明请查看 `requirements.txt`。
 
-## 🔧 OrcaLab 配置
+## 🔧 OrcaLab 配置仿真程序
 
 ### 配置文件位置
 
@@ -229,3 +230,16 @@ orcalab --init-config
 
 - OrcaPlayground 主仓库：https://github.com/openverse-orca/OrcaPlayground
 - 各示例详细说明：查看 `examples/*/README.md`
+
+
+## 三、技术支持
+
+如遇到问题，请：
+
+1. 查看本文档的"常见问题排查"部分
+2. 检查终端错误信息
+3. 扫码联系技术支持团队(入群请附上申请邀请码的学校/企业/个人信息等)
+
+![](../img/install/chat_scode.png)
+
+---
