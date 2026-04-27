@@ -18,7 +18,7 @@
 - 建议配备 NVIDIA 显卡（RTX 40/50 系列）
 - 建议内存：大于32G
 
-### 1.4 ORCALab最新版本号26.4.1
+### 1.4 ORCALab最新版本号26.4.2
  - 2.4章节安装命令默认下载最新版本，亦可通过指定版本号安装：pip install orca-lab==xx.x.x
 ---
 
@@ -79,6 +79,7 @@ conda activate orcalab
 # 从 PyPI 安装 OrcaLab
 pip install orca-lab
 #亦可通过指定版本号安装：pip install orca-lab==xx.x.x
+#如清华源不稳定，请尝试阿里源https://mirrors.aliyun.com/pypi/simple/  或者 官方源 https://pypi.org/simple/simple/
 ```
 
 ### 2.5 启动 OrcaLab
